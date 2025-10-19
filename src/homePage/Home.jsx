@@ -62,8 +62,8 @@ const Home = () => {
                 {/* navbar end */}
                 <div className="py-[5px]">
                   <div className="w-10/12 mx-auto">
-                    <div className="flex justify-between">
-                      <div className="w-5/11">
+                    <div className="lg:flex lg:justify-between">
+                      <div className="lg:w-5/11">
                         <div className="bg-[#DDF1E6] p-[37px] rounded-[30px]">
                            <div className="relative">
                              <h2 className="text-[#183835] text-[74px] font-bold font-dm ">Elevate Your Living Experience</h2>
@@ -76,13 +76,13 @@ const Home = () => {
                              <p className="text-[#183835] text-[18px] font-dm font-medium">Trusted by 14M+ Customer</p>
                            </div>
                            <div className="mt-[30px] relative">
-                             <input type="text" className="bg-[#FFFF] outline-0 py-[15px] w-[580px] px-[33px] rounded-[23px] " placeholder="Search city, region or address..."/>
+                             <input type="text" className="bg-[#FFFF] outline-0 py-[15px] lg:w-[580px] px-[33px] rounded-[23px] " placeholder="Search city, region or address..."/>
                              <CiSearch className="absolute top-[16px] left-[8px] text-[20px]" />
                              <a className="text-[#FFFFFF] bg-[#183835] font-dm text-[16px] py-[10px] px-[28px] rounded-[23px] absolute top-[4px] right-[75px] cursor-pointer ">Browse House’s</a>
                            </div>
                         </div>
                       </div>
-                      <div className="w-5/11">
+                      <div className="lg:w-5/11">
                         <div className="">
                             <img src={bannerImg} alt="" className="w-full"/>
                         </div>
@@ -90,6 +90,7 @@ const Home = () => {
                     </div>
                   </div>
                 </div>
+                {/* banner part end */}
             </section>
         </>
     )
